@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="hi">
+<head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Trainee Details — Copy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+--bg: #f5f6f8;
+--card: #fff;
+--muted: #7a7f86;
+--accent: #ff8a00;
+--border: #e6e9ee;
+--shadow: 0 8px 24px rgba(20,30,60,0.06);
+--radius: 14px;
+font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+* {
+box-sizing: border-box
+}
+body {
+margin: 0;
+background: linear-gradient(180deg,var(--bg),#fff 60%);
+color: #222;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.wrap {
+max-width: 1000px;
+margin: 26px auto;
+padding: 18px;
+}
+
+.card {
+background: var(--card);
+border-radius: var(--radius);
+box-shadow: var(--shadow);
+padding: 26px;
+border: 1px solid var(--border);
+}
+
+/* top logos row */
+.topbar {
+display: flex;
+align-items: center;
+gap: 18px;
+padding: 6px 2px 18px 2px;
+border-bottom: 1px solid var(--border);
+}
+.hamburger {
+width: 36px;
+height: 36px;
+border-radius: 8px;
+background: #fff;
+border: 1px solid var(--border);
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 700;
+color: var(--muted);
+}
+.logos {
+display: flex;
+gap: 14px;
+align-items: center;
+margin-left: auto;
+}
+.logos img {
+height: 34px;
+display: block;
+}
+
+.title {
+font-size: 28px;
+font-weight: 700;
+margin: 18px 6px;
+color: #222;
+}
+
+.profile {
+display: flex;
+gap: 28px;
+align-items: flex-start;
+padding: 18px 6px;
+}
+
+.avatar-wrap {
+width: 150px;
+text-align: center;
+flex: 0 0 150px
+}
+.avatar {
+width: 132px;
+height: 132px;
+border-radius: 999px;
+border: 6px solid var(--accent);
+overflow: hidden;
+margin: 6px auto;
+background: #ddd;
+}
+.avatar img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+display: block
+}
+
+.info {
+flex: 1;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 18px 36px;
+align-items: start;
+padding-top: 6px;
+}
+
+.field {
+display: flex;
+gap: 12px;
+padding: 8px 0;
+align-items: flex-start;
+}
+.label {
+min-width: 140px;
+color: var(--muted);
+font-weight: 700;
+font-size: 14px;
+}
+.value {
+font-weight: 700;
+color: #222;
+font-size: 14px;
+line-height: 1.3
+}
+
+/* long multi-line value */
+.value.multiline {
+font-weight: 600;
+color: #444
+}
+@media (max-width:720px) {
+        .white {
+        width: 30;
+    }
+    .MINISTER {
+        width: 50;
+    }
+    .SKILL {
+        width: 100;
+    }
+    .WORK {
+        width: 35;
+    }
+    .ITI {
+        width: 50;
+    }
+.info {
+grid-template-columns: 1fr;
+}
+.avatar-wrap {
+width: 120px;
+flex: 0 0 120px
+}
+.label {
+min-width: 100px;
+}
+.wrap {
+padding: 12px;
+margin: 12px
+}
+}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="main">
+<img src="white.png" alt="" width="150" class="white" />
+<img src="MINISTER.png" alt="" width="150 "class="MINISTER" />
+<img src="SKILL.png" alt="" width="200" class="SKILL"/>
+<img src="WORK.png" alt="" width="100" class="WORK" />
+<img src="ITI.png" alt="" width="150" class="ITI" />
+</div>
+</div>
+<div class="wrap">
+<div class="card">
+<div class="title">
+Trainee Details
+</div>
+
+<div class="topbar">
+
+</div>
+<Center><div class="avatar-wrap">
+<div class="avatar" title="photo">
+<!-- Replace with actual base64 or image URL -->
+<img src="KARTIK.jpg" alt="Trainee Photo">
+</div>
+
+</div>
+</Center>
+
+<div class="profile">
+
+<div class="info">
+<!-- LEFT COLUMN -->
+<div>
+<div class="field">
+<div class="label">
+Roll No
+</div>
+<div class="value">
+00230821034775
+</div>
+</div>
+<div class="field">
+<div class="label">
+Father Name
+</div>
+<div class="value">
+HARISCHANDRA PADHY
+</div>
+</div>
+<div class="field">
+<div class="label">
+Trade Name
+</div>
+<div class="value">
+Electrician (NSQF)
+</div>
+</div>
+<div class="field">
+<div class="label">
+Date of Birth
+</div>
+<div class="value">
+19-Oct-2006
+</div>
+</div>
+<div class="field">
+<div class="label">
+ITI Name
+</div>
+<div class="value multiline">
+Govt Industrial Training Institute, Berhampur
+</div>
+</div>
+<div class="field">
+<div class="label">
+Examination<br>Center Address
+</div>
+<div class="value multiline">
+GU21000525 - GOVT INDUSTRIAL TRAINING INSTITUTE, BERHAMPUR, PO:- ENGINEERING SCHOOL BERHAMPUR
+</div>
+</div>
+<div class="field">
+<div class="label">
+Unit
+</div>
+<div class="value">
+7
+</div>
+</div>
+<div class="field">
+<div class="label">
+Certified
+</div>
+<div class="value">
+Yes
+</div>
+</div>
+</div>
+
+<!-- RIGHT COLUMN -->
+<div>
+<div class="field">
+<div class="label">
+Name
+</div>
+<div class="value">
+DURGAMADHAB PADHY
+</div>
+</div>
+<div class="field">
+<div class="label">
+Trade Code
+</div>
+<div class="value">
+442
+</div>
+</div>
+<div class="field">
+<div class="label">
+Admission Year
+</div>
+<div class="value">
+2023
+</div>
+</div>
+<div class="field">
+<div class="label">
+ITI Code
+</div>
+<div class="value">
+GU21000525
+</div>
+</div>
+<div class="field">
+<div class="label">
+ITI Address
+</div>
+<div class="value multiline">
+Po:-Engineering School Berhampur, GANJAM, ODISHA - 760010
+</div>
+</div>
+<div class="field">
+<div class="label">
+Shift
+</div>
+<div class="value">
+1
+</div>
+</div>
+<div class="field">
+<div class="label">
+Training Duration
+</div>
+<div class="value">
+2023-2025<div></div>
+<div class="field">
+<div class="label">
+Certificate issue date
+</div>
+<div class="value">
+03-Aug-2025
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+</body>
+</html>
